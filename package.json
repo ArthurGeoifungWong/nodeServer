@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "forever start -o ./logs/out.log -e ./logs/err.log server.js",
+    "list": "forever list"
   },
   "author": "",
   "license": "ISC",
