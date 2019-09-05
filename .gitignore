@@ -2,6 +2,9 @@
 
 /node_modules
 
-/logs/err.log
-
-/logs/out.log
+/logs
+/logs/2019-9-5.log
+/logs/error.log
+/logs/log.log
+/logs/success.log
+/logs/5.log
